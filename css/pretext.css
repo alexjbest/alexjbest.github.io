@@ -1,0 +1,56 @@
+
+/*
+ There are four main choices that define a color scheme in the
+ HTML output of PreTeXt:
+ 1) A dark color for the title on each page
+ 2) A dark color for highlighted words in the body
+
+ In the CSS those are called 'documenttitle' and 'bodytitle'.
+ Often those are equal.
+
+ The other two choices appear in the ToC.
+
+ Either:
+ 3) A dark color for each chapter background
+ 4) A dark color for the current section background
+ (Often the ToC section background equals documenttitle.
+
+ Or:
+ 3') A light color for each chapter background
+ 4') A light color for the current section background
+
+ In the CSS those are called 'chaptertoc' and 'sectiontoc',
+ respectively.
+
+ With 3) and 4) you need white letters to go on the dark
+ background, and with 3') and 4') you need dark letters
+ on the light background.  Set the color of those letters
+ with 'chaptertoctext'.
+
+ In addition to the above four choices, you need to 
+ choose a contrasting shade of each color, to be used
+ for highlighting, borders, etc.
+
+ In the future you will be able to choose colors for assemblages
+ and for knowl output
+*/
+
+:root {
+  --documenttitle: #673f03;
+  --bodytitle: #932919;
+  --bodyverylight: #ffe2da;
+
+  --chaptertoc: #27303e;
+  --chaptertoctext: white;
+  --chaptertocactive: #442002;
+  --chaptertoctextactive: white;
+  --sectiontoc: #fffff8;
+  --sectiontoctext: #4e1000;
+  --sectiontocactive: #5f2e11;
+  --sectiontoctextactive: white;
+  --tocborder: #000000;
+
+  --highlighttoc: #8c3727;
+  --highlighttoctext: white;
+  --highlighttocborder: var(--chaptertoc);
+}
