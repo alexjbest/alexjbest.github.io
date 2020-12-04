@@ -160,4 +160,4 @@
 "is_total", "parentIds":["is_total_preorder"]},{"id":
 "comm_semiring", "parentIds":["comm_monoid_with_zero", "comm_monoid", "semiring"]},{"id":
 "order_bot", "parentIds":["partial_order", "has_bot"]},{"id":
-"partial_order", "parentIds":["is_antisymm", "is_partial_order", "preorder", "is_antisymm"]}]
+"partial_order", "parentIds":["is_antisymm", "is_partial_order", "preorder"]}]
