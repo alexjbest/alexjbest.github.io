@@ -109,7 +109,7 @@
 "partial_order",
 "is_total_preorder",
 "is_linear_order",
-"is_strict_total_order"',
+"is_strict_total_order",
 "is_trichotomous",
 "is_incomp_trans",
 "is_total",
