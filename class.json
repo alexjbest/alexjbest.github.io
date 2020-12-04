@@ -1,0 +1,181 @@
+[{"id": "add_semigroup", "parentIds":["is_associative", "has_add"]},{"id":
+"is_lawful_applicative", "parentIds":["is_lawful_functor"]},{"id":
+"add_right_cancel_monoid", "parentIds":["add_right_cancel_semigroup", "add_monoid"]},{"id":
+"add_left_cancel_comm_monoid", "parentIds":["add_left_cancel_monoid", "add_comm_monoid"]},{"id":
+"left_cancel_comm_monoid", "parentIds":["left_cancel_monoid", "comm_monoid"]},{"id":
+"ordered_comm_monoid", "parentIds":["comm_monoid", "partial_order"]},{"id":
+"ordered_ring", "parentIds":["ordered_add_comm_group", "ordered_semiring", "ring"]},{"id":
+"canonically_ordered_add_monoid", "parentIds":["ordered_add_comm_monoid", "order_bot"]},{"id":
+"inhabited", "parentIds":["nonempty"]},{"id":
+"linear_ordered_add_comm_group", "parentIds":["linear_order",
+"add_comm_group",
+"linear_ordered_cancel_add_comm_monoid",
+"ordered_add_comm_group"]},{"id":
+"semilattice_sup_bot", "parentIds":["order_bot", "semilattice_sup"]},{"id":
+"right_cancel_comm_monoid", "parentIds":["right_cancel_monoid", "comm_monoid"]},{"id":
+"add_monoid", "parentIds":["is_right_id", "add_semigroup", "is_left_id", "has_zero", "is_add_monoid_hom", "has_mem"]},{"id":
+"canonically_linear_ordered_add_monoid", "parentIds":["semilattice_sup_bot", "linear_order", "canonically_ordered_add_monoid"]},{"id":
+"monoid_with_zero", "parentIds":["mul_zero_class", "monoid"]},{"id":
+"has_Sup", "parentIds":["nonempty"]},{"id":
+"group_with_zero", "parentIds":["no_zero_divisors", "has_div", "nontrivial", "monoid_with_zero", "has_inv", "cancel_monoid_with_zero"]},{"id":
+"linear_ordered_field", "parentIds":["densely_ordered", "field", "linear_ordered_comm_ring"]},{"id":
+"char_zero", "parentIds":["infinite"]},{"id":
+"boolean_algebra", "parentIds":["has_sdiff", "bounded_distrib_lattice", "has_compl"]},{"id":
+"semigroup", "parentIds":["has_mul", "is_associative"]},{"id":
+"is_lawful_monad", "parentIds":["is_lawful_applicative"]},{"id":
+"left_cancel_semigroup", "parentIds":["semigroup"]},{"id":
+"cancel_monoid", "parentIds":["right_cancel_monoid", "left_cancel_monoid"]},{"id":
+"setoid", "parentIds":["has_equiv"]},{"id":
+"comm_cancel_monoid_with_zero", "parentIds":["cancel_monoid_with_zero", "comm_monoid_with_zero"]},{"id":
+"right_cancel_semigroup", "parentIds":["semigroup"]},{"id":
+"nontrivial", "parentIds":["nonempty", "no_bot_order", "no_top_order"]},{"id":
+"ordered_cancel_comm_monoid", "parentIds":["partial_order",
+"left_cancel_semigroup",
+"comm_monoid",
+"left_cancel_monoid",
+"ordered_comm_monoid",
+"right_cancel_semigroup"]},{"id":
+"lattice", "parentIds":["semilattice_inf", "semilattice_sup"]},{"id":
+"field", "parentIds":["euclidean_domain", "comm_group_with_zero", "has_inv", "comm_ring", "division_ring", "nontrivial", "integral_domain"]},{"id":
+"ordered_add_comm_monoid", "parentIds":["partial_order", "add_comm_monoid"]},{"id":
+"complete_distrib_lattice", "parentIds":["bounded_distrib_lattice", "complete_lattice"]},{"id":
+"has_to_format", "parentIds":["has_to_tactic_format"]},{"id":
+"has_one", "parentIds":["nonempty"]},{"id":
+"has_Inf", "parentIds":["nonempty"]},{"id":
+"monoid", "parentIds":["is_left_id", "has_mem", "has_dvd", "has_pow", "has_one", "semigroup", "is_monoid_hom", "is_right_id"]},{"id":
+"traversable", "parentIds":["functor"]},{"id":
+"bounded_lattice", "parentIds":["semilattice_inf_bot",
+"order_top",
+"semilattice_sup_bot",
+"order_bot",
+"lattice",
+"semilattice_sup_top",
+"semilattice_inf_top"]},{"id":
+"ordered_comm_group", "parentIds":["comm_group", "partial_order", "ordered_cancel_comm_monoid"]},{"id":
+"monad", "parentIds":["has_bind", "applicative", "has_monad_lift"]},{"id":
+"distrib_lattice", "parentIds":["lattice"]},{"id":
+"complete_lattice", "parentIds":["has_Inf", "has_Sup", "bounded_lattice"]},{"id":
+"infinite", "parentIds":["nontrivial"]},{"id":
+"preorder", "parentIds":["has_lt",
+"is_asymm",
+"is_antisymm",
+"is_trans",
+"is_trans",
+"is_trans",
+"is_refl",
+"is_strict_order",
+"is_antisymm",
+"is_preorder",
+"is_asymm",
+"is_trans",
+"is_strict_order",
+"is_irrefl",
+"is_irrefl",
+"has_le",
+"is_preorder",
+"category_theory"."small_category",
+"is_refl"]},{"id":
+"add_comm_monoid", "parentIds":["add_monoid", "add_comm_semigroup"]},{"id":
+"add_comm_semigroup", "parentIds":["add_semigroup", "is_commutative"]},{"id":
+"has_reflect", "parentIds":["has_to_pexpr"]},{"id":
+"has_zero", "parentIds":["nonempty"]},{"id":
+"add_cancel_monoid", "parentIds":["add_right_cancel_monoid", "add_left_cancel_monoid"]},{"id":
+"cancel_monoid_with_zero", "parentIds":["monoid_with_zero", "no_zero_divisors"]},{"id":
+"euclidean_domain", "parentIds":["comm_ring", "has_div", "nontrivial", "integral_domain", "has_mod"]},{"id":
+"comm_semigroup", "parentIds":["is_commutative", "semigroup"]},{"id":
+"complete_boolean_algebra", "parentIds":["complete_distrib_lattice", "boolean_algebra"]},{"id":
+"has_sizeof", "parentIds":["has_well_founded"]},{"id":
+"is_lawful_traversable", "parentIds":["is_lawful_functor"]},{"id":
+"bounded_distrib_lattice", "parentIds":["distrib_lattice", "bounded_lattice"]},{"id":
+"cancel_comm_monoid", "parentIds":["right_cancel_comm_monoid", "left_cancel_comm_monoid"]},{"id":
+"semilattice_inf", "parentIds":["is_idempotent", "has_inf", "is_commutative", "partial_order", "is_associative"]},{"id":
+"applicative", "parentIds":["has_seq_right", "functor", "has_pure", "has_seq", "has_seq_left"]},{"id":
+"group", "parentIds":["has_inv", "cancel_monoid", "monoid", "is_group_hom", "has_pow"]},{"id":
+"directed_order", "parentIds":["preorder"]},{"id":
+"comm_monoid", "parentIds":["comm_semigroup", "monoid"]},{"id":
+"alternative", "parentIds":["applicative", "has_orelse"]},{"id":
+"category_theory"."category", "parentIds":["category_theory"."category_struct"]},{"id":
+"nonneg_add_comm_group", "parentIds":["add_comm_group", "ordered_add_comm_group"]},{"id":
+"linear_order", "parentIds":["is_total_preorder",
+"is_well_order",
+"is_total",
+"is_idempotent",
+"lattice",
+"is_total_preorder",
+"is_strict_weak_order",
+"is_linear_order",
+"is_strict_weak_order",
+"is_idempotent",
+"partial_order",
+"is_total_preorder",
+"is_linear_order",
+"is_strict_total_order"',
+"is_trichotomous",
+"is_incomp_trans",
+"is_total",
+"directed_order",
+"distrib_lattice",
+"is_order_connected",
+"is_trichotomous",
+"is_strict_total_order",
+"is_strict_total_order"]},{"id":
+"distrib", "parentIds":["has_mul", "has_add"]},{"id":
+"order_top", "parentIds":["partial_order", "has_top"]},{"id":
+"linear_ordered_ring", "parentIds":["nontrivial",
+"domain",
+"linear_order",
+"linear_ordered_add_comm_group",
+"linear_ordered_semiring",
+"ordered_ring"]},{"id":
+"add_group", "parentIds":["has_neg", "has_sub", "add_monoid", "add_cancel_monoid", "is_add_group_hom"]},{"id":
+"comm_ring", "parentIds":["ring", "comm_semiring", "comm_semigroup"]},{"id":
+"right_cancel_monoid", "parentIds":["monoid", "right_cancel_semigroup"]},{"id":
+"encodable", "parentIds":["is_trans", "is_antisymm", "is_total"]},{"id":
+"add_right_cancel_semigroup", "parentIds":["add_semigroup"]},{"id":
+"decidable_rel", "parentIds":["decidable_eq"]},{"id":
+"comm_monoid_with_zero", "parentIds":["comm_monoid", "monoid_with_zero"]},{"id":
+"category_theory"."category_struct", "parentIds":["category_theory"."has_hom"]},{"id":
+"ordered_semiring", "parentIds":["semiring", "ordered_cancel_add_comm_monoid"]},{"id":
+"semilattice_inf_bot", "parentIds":["order_bot", "semilattice_inf"]},{"id":
+"domain", "parentIds":["ring", "no_zero_divisors", "cancel_monoid_with_zero", "nontrivial"]},{"id":
+"has_add", "parentIds":["is_add_hom"]},{"id":
+"linear_ordered_comm_ring", "parentIds":["comm_ring", "linear_ordered_ring", "integral_domain", "linear_ordered_semiring", "comm_monoid"]},{"id":
+"canonically_ordered_comm_semiring", "parentIds":["comm_semiring", "no_zero_divisors", "canonically_ordered_add_monoid"]},{"id":
+"division_ring", "parentIds":["has_div", "nontrivial", "has_inv", "domain", "group_with_zero", "ring"]},{"id":
+"semilattice_sup", "parentIds":["has_sup", "is_idempotent", "partial_order", "is_associative", "is_commutative"]},{"id":
+"subsingleton", "parentIds":["is_well_order", "decidable_eq"]},{"id":
+"decidable_eq", "parentIds":["is_lawful_singleton", "has_insert", "is_lawful_singleton", "has_insert"]},{"id":
+"ring", "parentIds":["add_comm_group", "monoid", "semiring", "distrib"]},{"id":
+"comm_group_with_zero", "parentIds":["comm_cancel_monoid_with_zero", "group_with_zero", "comm_monoid_with_zero"]},{"id":
+"add_left_cancel_monoid", "parentIds":["add_monoid", "add_left_cancel_semigroup"]},{"id":
+"is_comm_applicative", "parentIds":["is_lawful_applicative"]},{"id":
+"ordered_add_comm_group", "parentIds":["ordered_cancel_add_comm_monoid", "partial_order", "add_comm_group"]},{"id":
+"nonneg_ring", "parentIds":["ring", "nonneg_add_comm_group"]},{"id":
+"add_right_cancel_comm_monoid", "parentIds":["add_comm_monoid", "add_right_cancel_monoid"]},{"id":
+"mul_zero_class", "parentIds":["has_mul", "has_zero"]},{"id":
+"left_cancel_monoid", "parentIds":["left_cancel_semigroup", "monoid"]},{"id":
+"semiring", "parentIds":["add_comm_monoid", "distrib", "semimodule", "monoid_with_zero"]},{"id":
+"linear_ordered_cancel_add_comm_monoid", "parentIds":["linear_order", "ordered_cancel_add_comm_monoid"]},{"id":
+"integral_domain", "parentIds":["domain", "comm_ring", "comm_cancel_monoid_with_zero"]},{"id":
+"is_lawful_functor", "parentIds":["equiv_functor"]},{"id":
+"complete_linear_order", "parentIds":["linear_order", "complete_lattice"]},{"id":
+"has_mul", "parentIds":["is_mul_hom"]},{"id":
+"comm_group", "parentIds":["group", "cancel_comm_monoid", "is_group_hom", "comm_monoid"]},{"id":
+"unique", "parentIds":["inhabited", "subsingleton", "fintype"]},{"id":
+"add_left_cancel_semigroup", "parentIds":["add_semigroup"]},{"id":
+"semilattice_sup_top", "parentIds":["order_top", "semilattice_sup"]},{"id":
+"add_comm_group", "parentIds":["add_comm_monoid", "add_group", "add_cancel_comm_monoid", "is_add_group_hom"]},{"id":
+"linear_ordered_semiring", "parentIds":["ordered_semiring", "linear_order", "no_top_order", "char_zero", "nontrivial"]},{"id":
+"add_cancel_comm_monoid", "parentIds":["add_left_cancel_comm_monoid", "add_right_cancel_comm_monoid"]},{"id":
+"ordered_cancel_add_comm_monoid", "parentIds":["add_left_cancel_monoid",
+"add_comm_monoid",
+"partial_order",
+"ordered_add_comm_monoid",
+"add_right_cancel_semigroup",
+"add_left_cancel_semigroup"]},{"id":
+"semilattice_inf_top", "parentIds":["order_top", "semilattice_inf"]},{"id":
+"linear_nonneg_ring", "parentIds":["nonneg_ring", "domain", "nonneg_add_comm_group"]},{"id":
+"is_total", "parentIds":["is_total_preorder"]},{"id":
+"comm_semiring", "parentIds":["comm_monoid_with_zero", "comm_monoid", "semiring", "comm_monoid_with_zero"]},{"id":
+"order_bot", "parentIds":["partial_order", "has_bot"]},{"id":
+"partial_order", "parentIds":["is_antisymm", "is_partial_order", "is_partial_order", "preorder", "is_antisymm"]}]
