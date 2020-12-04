@@ -103,20 +103,14 @@
 "lattice",
 "is_total_preorder",
 "is_strict_weak_order",
-"is_linear_order",
-"is_strict_weak_order",
 "is_idempotent",
 "partial_order",
-"is_total_preorder",
 "is_linear_order",
-"is_strict_total_order",
 "is_trichotomous",
 "is_incomp_trans",
-"is_total",
 "directed_order",
 "distrib_lattice",
 "is_order_connected",
-"is_strict_total_order",
 "is_strict_total_order"]},{"id":
 "distrib", "parentIds":["has_mul", "has_add"]},{"id":
 "order_top", "parentIds":["partial_order", "has_top"]},{"id":
