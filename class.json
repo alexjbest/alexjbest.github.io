@@ -101,7 +101,6 @@
 "is_total",
 "is_idempotent",
 "lattice",
-"is_total_preorder",
 "is_strict_weak_order",
 "is_idempotent",
 "partial_order",
