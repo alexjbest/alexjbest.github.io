@@ -102,7 +102,6 @@
 "is_idempotent",
 "lattice",
 "is_strict_weak_order",
-"is_idempotent",
 "partial_order",
 "is_linear_order",
 "is_trichotomous",
