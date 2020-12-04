@@ -116,7 +116,6 @@
 "directed_order",
 "distrib_lattice",
 "is_order_connected",
-"is_trichotomous",
 "is_strict_total_order",
 "is_strict_total_order"]},{"id":
 "distrib", "parentIds":["has_mul", "has_add"]},{"id":
