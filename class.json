@@ -73,7 +73,7 @@
 "is_irrefl",
 "has_le",
 "is_preorder",
-"category_theory"."small_category",
+"category_theory.small_category",
 "is_refl"]},{"id":
 "add_comm_monoid", "parentIds":["add_monoid", "add_comm_semigroup"]},{"id":
 "add_comm_semigroup", "parentIds":["add_semigroup", "is_commutative"]},{"id":
@@ -94,7 +94,7 @@
 "directed_order", "parentIds":["preorder"]},{"id":
 "comm_monoid", "parentIds":["comm_semigroup", "monoid"]},{"id":
 "alternative", "parentIds":["applicative", "has_orelse"]},{"id":
-"category_theory"."category", "parentIds":["category_theory"."category_struct"]},{"id":
+"category_theory.category", "parentIds":["category_theory.category_struct"]},{"id":
 "nonneg_add_comm_group", "parentIds":["add_comm_group", "ordered_add_comm_group"]},{"id":
 "linear_order", "parentIds":["is_total_preorder",
 "is_well_order",
@@ -134,7 +134,7 @@
 "add_right_cancel_semigroup", "parentIds":["add_semigroup"]},{"id":
 "decidable_rel", "parentIds":["decidable_eq"]},{"id":
 "comm_monoid_with_zero", "parentIds":["comm_monoid", "monoid_with_zero"]},{"id":
-"category_theory"."category_struct", "parentIds":["category_theory"."has_hom"]},{"id":
+"category_theory.category_struct", "parentIds":["category_theory.has_hom"]},{"id":
 "ordered_semiring", "parentIds":["semiring", "ordered_cancel_add_comm_monoid"]},{"id":
 "semilattice_inf_bot", "parentIds":["order_bot", "semilattice_inf"]},{"id":
 "domain", "parentIds":["ring", "no_zero_divisors", "cancel_monoid_with_zero", "nontrivial"]},{"id":
