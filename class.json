@@ -176,6 +176,6 @@
 "semilattice_inf_top", "parentIds":["order_top", "semilattice_inf"]},{"id":
 "linear_nonneg_ring", "parentIds":["nonneg_ring", "domain", "nonneg_add_comm_group"]},{"id":
 "is_total", "parentIds":["is_total_preorder"]},{"id":
-"comm_semiring", "parentIds":["comm_monoid_with_zero", "comm_monoid", "semiring", "comm_monoid_with_zero"]},{"id":
+"comm_semiring", "parentIds":["comm_monoid_with_zero", "comm_monoid", "semiring"]},{"id":
 "order_bot", "parentIds":["partial_order", "has_bot"]},{"id":
 "partial_order", "parentIds":["is_antisymm", "is_partial_order", "preorder", "is_antisymm"]}]
