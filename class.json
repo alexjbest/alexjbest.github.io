@@ -144,7 +144,7 @@
 "division_ring", "parentIds":["has_div", "nontrivial", "has_inv", "domain", "group_with_zero", "ring"]},{"id":
 "semilattice_sup", "parentIds":["has_sup", "is_idempotent", "partial_order", "is_associative", "is_commutative"]},{"id":
 "subsingleton", "parentIds":["is_well_order", "decidable_eq"]},{"id":
-"decidable_eq", "parentIds":["is_lawful_singleton", "is_lawful_singleton", "has_insert"]},{"id":
+"decidable_eq", "parentIds":["is_lawful_singleton", "has_insert"]},{"id":
 "ring", "parentIds":["add_comm_group", "monoid", "semiring", "distrib"]},{"id":
 "comm_group_with_zero", "parentIds":["comm_cancel_monoid_with_zero", "group_with_zero", "comm_monoid_with_zero"]},{"id":
 "add_left_cancel_monoid", "parentIds":["add_monoid", "add_left_cancel_semigroup"]},{"id":
