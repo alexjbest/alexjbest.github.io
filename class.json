@@ -64,7 +64,6 @@
 "is_preorder",
 "is_irrefl",
 "has_le",
-"is_preorder",
 "category_theory.small_category",
 "is_refl"]},{"id":
 "add_comm_monoid", "parentIds":["add_monoid", "add_comm_semigroup"]},{"id":
