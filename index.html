@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html>
 <head>
@@ -60,18 +63,10 @@ If you want to send me an email, go ahead! Just replace the .github.io part of t
 <h4>Publications</h4>
 </div>
 <div class="panel-body">
-Preprints:
     <ul class="list-group list-group-flush">
-        <li class="list-group-item"><a name="paper-clusters"></a>A User's Guide to the Local Arithmetic of Hyperelliptic Curves (with L. Alexander Betts, Matthew Bisatt, Raymond van Bommel, Vladimir Dokchitser, Omri Faraggi, Sabrina Kunzweiler, Céline Maistret, Adam Morgan, Simone Muselli, and Sarah Nowell), to appear  Bulletin of the London Mathematical Society, <a knowl="papers/clusters-abstract.html">(abstract)</a> <a href="https://arxiv.org/abs/2007.01749">(arXiv)</a></li>
-        <li class="list-group-item"><a name="paper-coleman-superelliptic"></a>Square root time Coleman integration on superelliptic curves <a knowl="papers/coleman-superelliptic-abstract.html">(abstract)</a> <a href="papers/coleman-superelliptic.pdf">(preprint)</a></li>
-        <li class="list-group-item"><a name="paper-elliptic-good-reduction"></a>Elliptic curves with good reduction outside of the first six primes (with <a href="http://math.bu.edu/people/matschke/">Benjamin Matschke</a>) <a knowl="papers/good-reduction-abstract.html">(abstract)</a> <a href="https://arxiv.org/abs/2007.10535">(arXiv)</a></li>
-        <li class="list-group-item"><a name="paper-computing-modular-forms"></a>Computing classical modular forms (with <a href="https://people.maths.bris.ac.uk/~jb12407/">Jonathan Bober</a>, <a href="https://people.maths.bris.ac.uk/~maarb/">Andrew R. Booker</a>, <a href="https://math.mit.edu/~edgarc/">Edgar Costa</a>, <a href="http://homepages.warwick.ac.uk/~masgaj/">John Cremona</a>, <a href="http://www.maartenderickx.nl/">Maarten Derickx</a>, <a href="https://davidlowryduda.com/">David Lowry-Duda</a>, <a href="https://people.maths.bris.ac.uk/~ml14850/">Min Lee</a>, <a href="http://math.mit.edu/~roed/">David Roe</a>, <a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a>, and <a href="https://math.dartmouth.edu/~jvoight/">John Voight</a>) <a knowl="papers/computing-modular-forms-abstract.html">(abstract)</a> <a href="https://arxiv.org/abs/2002.04717">(arXiv)</a></li>
-        <li class="list-group-item"><a name="recent-padic"></a>Two Recent p-adic Approaches Towards the (effective) Mordell Conjecture (with <a href="http://math.bu.edu/people/jbala/">Jennifer Balakrishnan</a>, <a href="http://people.maths.ox.ac.uk/bianchi/">Francesca Bianchi</a>, <a href="https://math.uchicago.edu/~brianrl/">Brian Lawrence</a>, <a href="https://www.rug.nl/staff/steffen.muller/">Steffen Müller</a>, <a href="https://ngtriant.github.io/">Nicholas Triantafillou</a>, and <a href="https://www.math.ias.edu/~vonk/">Jan Vonk</a>) <a knowl="papers/mordell-abstract.html">(abstract)</a> <a href="https://arxiv.org/abs/1910.12755">(arXiv)</a></li>
-    </ul>
-Published:
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item"><a name="paper-coleman-larger"></a>Explicit Coleman Integration in Larger Characteristic <a knowl="papers/explicit-larger-abstract.html">(abstract)</a> <a href="https://arxiv.org/abs/1806.03393">(arXiv)</a> doi:<a href="https://doi.org/10.2140/obs.2019.2.85">10.2140/obs.2019.2.85</a></li>
-        <li class="list-group-item"><a name="paper-zeta-larger"></a>Computing Zeta Functions of Cyclic Covers in Large Characteristic (with <a href="http://math.mit.edu/~varul/">Vishal Arul</a>, <a href="https://math.mit.edu/~edgarc/">Edgar Costa</a>, <a href="http://math.bu.edu/people/rmagner/">Richard Magner</a>, and <a href="https://ngtriant.github.io/">Nicholas Triantafillou</a>) <a knowl="papers/zeta-larger-abstract.html">(abstract)</a> <a href="https://arxiv.org/abs/1806.02262">(arXiv)</a> doi:<a href="https://doi.org/10.2140/obs.2019.2.37">10.2140/obs.2019.2.37</a></li>
+        {% for publ in site.data.publications %}
+        <li class="list-group-item"><a name="paper-{{ publ.id }}"></a>{{ publ.title }}{% if publ.coauthors %} (with {% for coa in publ.coauthors %}{% if forloop.last %}and {%endif%}{{coa }}{% if forloop.last == false%}, {%endif%}{% endfor%}){% endif %}, {% if publ.journal %}{%if publ.published == false %}to appear{%endif%} {{publ.journal}},{%endif%} <a knowl="papers/{{publ.id}}-abstract.html">(abstract)</a> {%if publ.arxiv%}<a href="https://arxiv.org/abs/{{publ.arxiv}}">(arXiv)</a>{%endif%} {%if publ.preprint%}<a href="{{publ.preprint}}">(preprint)</a>{%endif%} {% if publ.doi %}doi:<a href="https://doi.org/{{ publ.doi }}">{{publ.doi}}</a>{%endif%}</li>
+        {% endfor %}
     </ul>
 </div>
 </div>
