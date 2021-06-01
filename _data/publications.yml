@@ -8,24 +8,28 @@
 - id: coleman-superelliptic
   title: Square root time Coleman integration on superelliptic curves
   published: false
+  journal: Arithmetic geometry, number theory, and computation, Simons Symposia
   preprint: papers/coleman-superelliptic.pdf
 
 - id: elliptic-good-reduction
   title: Elliptic curves with good reduction outside of the first six primes
   published: false
   coauthors:
-    - <a href="http://math.bu.edu/people/matschke/">Benjamin Matschke</a>
+    - '<a href="http://math.bu.edu/people/matschke/">Benjamin Matschke</a>'
+  journal: Arithmetic geometry, number theory, and computation, Simons Symposia
   arxiv: 2007.10535
 
 - id: computing-modular-forms
   title: Computing classical modular forms
   published: false
   coauthors: ['<a href="https://people.maths.bris.ac.uk/~jb12407/">Jonathan Bober</a>', '<a href="https://people.maths.bris.ac.uk/~maarb/">Andrew R. Booker</a>', '<a href="https://math.mit.edu/~edgarc/">Edgar Costa</a>', '<a href="http://homepages.warwick.ac.uk/~masgaj/">John Cremona</a>', '<a href="http://www.maartenderickx.nl/">Maarten Derickx</a>', '<a href="https://davidlowryduda.com/">David Lowry-Duda</a>', '<a href="https://people.maths.bris.ac.uk/~ml14850/">Min Lee</a>', '<a href="http://math.mit.edu/~roed/">David Roe</a>', '<a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a>', '<a href="https://math.dartmouth.edu/~jvoight/">John Voight</a>']
+  journal: Arithmetic geometry, number theory, and computation, Simons Symposia
   arxiv: 2002.04717
 
 - id: recent-padic
   title: Two Recent p-adic Approaches Towards the (effective) Mordell Conjecture
-  published: false
+  published: true
+  journal: Arithmetic L-Functions and Differential Geometric Methods, Regulators IV, May 2016, Paris
   coauthors: ['<a href="http://math.bu.edu/people/jbala/">Jennifer Balakrishnan</a>', '<a href="http://people.maths.ox.ac.uk/bianchi/">Francesca Bianchi</a>', '<a href="https://math.uchicago.edu/~brianrl/">Brian Lawrence</a>', '<a href="https://www.rug.nl/staff/steffen.muller/">Steffen Müller</a>', '<a href="https://ngtriant.github.io/">Nicholas Triantafillou</a>', '<a href="https://www.math.ias.edu/~vonk/">Jan Vonk</a>']
   arxiv: 1910.12755
 
