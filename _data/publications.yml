@@ -1,6 +1,6 @@
 - id: clusters
   title: A User's Guide to the Local Arithmetic of Hyperelliptic Curves
-  coauthors: [L. Alexander Betts, Matthew Bisatt, Raymond van Bommel, Vladimir Dokchitser, Omri Faraggi, Sabrina Kunzweiler, Céline Maistret, Adam Morgan, Simone Muselli, Sarah Nowell]
+  coauthors: [betts, bisatt, van-bommel, vladimir-dokchitser, faraggi, kunzweiler, maistret, morgan, muselli, nowell]
   published: false
   journal: Bulletin of the London Mathematical Society
   arxiv: 2007.01749
@@ -15,14 +15,14 @@
   title: Elliptic curves with good reduction outside of the first six primes
   published: false
   coauthors:
-    - '<a href="http://math.bu.edu/people/matschke/">Benjamin Matschke</a>'
+    - matschke
   journal: Arithmetic geometry, number theory, and computation, Simons Symposia
   arxiv: 2007.10535
 
 - id: computing-modular-forms
   title: Computing classical modular forms
   published: false
-  coauthors: ['<a href="https://people.maths.bris.ac.uk/~jb12407/">Jonathan Bober</a>', '<a href="https://people.maths.bris.ac.uk/~maarb/">Andrew R. Booker</a>', '<a href="https://math.mit.edu/~edgarc/">Edgar Costa</a>', '<a href="http://homepages.warwick.ac.uk/~masgaj/">John Cremona</a>', '<a href="http://www.maartenderickx.nl/">Maarten Derickx</a>', '<a href="https://davidlowryduda.com/">David Lowry-Duda</a>', '<a href="https://people.maths.bris.ac.uk/~ml14850/">Min Lee</a>', '<a href="http://math.mit.edu/~roed/">David Roe</a>', '<a href="https://math.mit.edu/~drew/">Andrew V. Sutherland</a>', '<a href="https://math.dartmouth.edu/~jvoight/">John Voight</a>']
+  coauthors: [bober, booker, costa, cremona, derickx, lowry-duda, lee, roe, sutherland, voight]
   journal: Arithmetic geometry, number theory, and computation, Simons Symposia
   arxiv: 2002.04717
 
@@ -31,7 +31,7 @@
   published: true
   journal: Arithmetic L-Functions and Differential Geometric Methods, Regulators IV, May 2016, Paris
   doi: 10.1007/978-3-030-65203-6_2
-  coauthors: ['<a href="http://math.bu.edu/people/jbala/">Jennifer Balakrishnan</a>', '<a href="http://people.maths.ox.ac.uk/bianchi/">Francesca Bianchi</a>', '<a href="https://math.uchicago.edu/~brianrl/">Brian Lawrence</a>', '<a href="https://www.rug.nl/staff/steffen.muller/">Steffen Müller</a>', '<a href="https://ngtriant.github.io/">Nicholas Triantafillou</a>', '<a href="https://www.math.ias.edu/~vonk/">Jan Vonk</a>']
+  coauthors: [balakrishnan, bianchi, lawrence, muller, triantafillou, vonk]
   arxiv: 1910.12755
 
 - id: coleman-larger
@@ -45,6 +45,6 @@
   title: Computing Zeta Functions of Cyclic Covers in Large Characteristic
   published: true
   journal: Proceedings of the Thirteenth Algorithmic Number Theory Symposium
-  coauthors: ['<a href="http://math.mit.edu/~varul/">Vishal Arul</a>', '<a href="https://math.mit.edu/~edgarc/">Edgar Costa</a>', '<a href="http://math.bu.edu/people/rmagner/">Richard Magner</a>', '<a href="https://ngtriant.github.io/">Nicholas Triantafillou</a>']
+  coauthors: [arul, costa, magner, triantafillou]
   arxiv: 1806.02262
   doi: 10.2140/obs.2019.2.37
