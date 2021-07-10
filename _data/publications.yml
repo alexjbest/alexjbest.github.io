@@ -1,3 +1,9 @@
+- id: S-unit
+  title: Refined Selmer Equations for the Thrice-Punctured Line in depth two
+  coauthors: [betts, kumpitsch, ludtke, mcandrew, qian, studnia, xu]
+  published: false
+  arxiv: 2106.10145
+
 - id: clusters
   title: A User's Guide to the Local Arithmetic of Hyperelliptic Curves
   coauthors: [betts, bisatt, van-bommel, vladimir-dokchitser, faraggi, kunzweiler, maistret, morgan, muselli, nowell]
