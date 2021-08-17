@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Unix Family Tree</title>
+    <title>Mathlib imports</title>
     <style>
         @import url(https://ialab.it.monash.edu/webcola/style.css);
     .background {
@@ -96,12 +96,38 @@
                 edges.push({ source: digraph._nodes[edge.u].id, target: digraph._nodes[edge.v].id });
             }
 
+            var groupMap = {};
+            graph.nodes.forEach(function (v, i) {
+                var g = v.group;
+                if (typeof groupMap[g] == 'undefined') {
+                    groupMap[g] = [];
+                }
+                groupMap[g].push(i);
+
+                v.width = v.height = 10;
+            });
+
+            var groups = [];
+            for (var g in groupMap) {
+                groups.push({ id: g, leaves: groupMap[g] });
+            }
+
+            var group = svg.selectAll('.group')
+                .data(groups)
+                .enter().append('rect')
+                .classed('group', true)
+                .attr('rx',5)
+                .attr('ry',5)
+                .style("fill", function (d) { return color(d.id); })
+                .call(cola.drag);
+
             d3cola
                 .avoidOverlaps(true)
                 .convergenceThreshold(1e-3)
-                .flowLayout('x', 150)
+                .flowLayout('y', 150)
                 .size([width, height])
                 .nodes(nodes)
+                .groups(groups)
                 .links(edges)
                 .jaccardLinkLengths(150);
 
