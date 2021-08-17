@@ -57,7 +57,7 @@
             .attr('class','background')
             .attr('width',"100%")
             .attr('height',"100%")
-            .call(d3.zoom().on("zoom", redraw));
+            .call(d3.behaviour.zoom().on("zoom", redraw));
 
         var vis = outer
             .append('g')
