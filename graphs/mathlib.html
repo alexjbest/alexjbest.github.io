@@ -57,14 +57,14 @@
             .attr('class','background')
             .attr('width',"100%")
             .attr('height',"100%")
-            .call(d3.behaviour.zoom().on("zoom", redraw));
+            .call(d3.zoom().on("zoom", redraw));
 
         var vis = outer
             .append('g')
             .attr('transform', 'translate(250,250) scale(0.3)');
 
         function redraw() {
-            vis.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")");
+            vis.attr("transform", d3.event.transform);
         }
 
         outer.append('svg:defs').append('svg:marker')
