@@ -97,7 +97,7 @@
             }
 
             var groupMap = {};
-            graph.nodes.forEach(function (v, i) {
+            digraph.nodes.forEach(function (v, i) {
                 var g = v.group;
                 if (typeof groupMap[g] == 'undefined') {
                     groupMap[g] = [];
