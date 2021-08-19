@@ -32,7 +32,14 @@
         text-anchor: middle;
         cursor: move;
     }
+
+	.group {
+		stroke: #fff;
+		stroke-width: 1.5px;
+		opacity: 0.2;
+	}
     </style >
+    <link rel="stylesheet" href="https://ialab.it.monash.edu/webcola/extern/hljs/styles/github.css" />
     </head >
 <body >
     <h1>Mathlib input graph</h1>
@@ -40,13 +47,14 @@
     <script src="https://ialab.it.monash.edu/webcola/extern/graphlib-dot.min.js"> </script>
     <script src="https://ialab.it.monash.edu/webcola/extern/d3v4.js"></script>
     <script src="https://ialab.it.monash.edu/webcola/cola.js"></script>
-    <link rel="stylesheet" href="https://ialab.it.monash.edu/webcola/extern/hljs/styles/github.css">
     <script src="https://ialab.it.monash.edu/webcola/extern/hljs/highlight.pack.js"></script>
     <script>
         hljs.initHighlightingOnLoad();
         var d3cola = cola.d3adaptor(d3).convergenceThreshold(0.1);
 
         var width = 960, height = 700;
+
+        var color = d3.scaleOrdinal(d3.schemeCategory20);
 
         var outer = d3.select("body").append("svg")
             .attr('width',width)
@@ -79,7 +87,7 @@
             .attr('stroke-width','0px')
             .attr('fill','#000');
 
-        d3.text("import_graph.dot", function (f) {
+        d3.text("https://alexjbest.github.io/graphs/import_graph.dot", function (f) {
             var digraph = graphlibDot.parse(f);
 
             var nodeNames = digraph.nodes();
@@ -93,18 +101,26 @@
             var edges = [];
             for (var e in digraph._edges) {
                 var edge = digraph._edges[e];
+				if (edge.u == "all") { continue; }
+				if (edge.v == "all") { continue; }
                 edges.push({ source: digraph._nodes[edge.u].id, target: digraph._nodes[edge.v].id });
             }
 
             var groupMap = {};
-            digraph.nodes.forEach(function (v, i) {
-                var g = v.group;
-                if (typeof groupMap[g] == 'undefined') {
-                    groupMap[g] = [];
-                }
-                groupMap[g].push(i);
-
-                v.width = v.height = 10;
+            nodes.forEach(function (v, i) {
+                var G = v["name"].split(".");
+	console.log(G);
+				var cur = "";
+				for (var g in G) {
+					if (g == G.length - 1) { break; }
+                    cur = cur + G[g] + ".";
+					console.log(v);
+					console.log(cur);
+					if (typeof groupMap[cur] == 'undefined') {
+						groupMap[cur] = [];
+					}
+					groupMap[cur].push(i);
+				}
             });
 
             var groups = [];
@@ -112,24 +128,23 @@
                 groups.push({ id: g, leaves: groupMap[g] });
             }
 
-            var group = svg.selectAll('.group')
-                .data(groups)
-                .enter().append('rect')
-                .classed('group', true)
-                .attr('rx',5)
-                .attr('ry',5)
-                .style("fill", function (d) { return color(d.id); })
-                .call(cola.drag);
-
             d3cola
                 .avoidOverlaps(true)
                 .convergenceThreshold(1e-3)
-                .flowLayout('y', 150)
+                .flowLayout('y', 30)
                 .size([width, height])
                 .nodes(nodes)
                 .groups(groups)
                 .links(edges)
                 .jaccardLinkLengths(150);
+
+            var group = vis.selectAll('.group')
+                .data(groups)
+                .enter().append('rect')
+                .classed('group', true)
+                .attr('rx',5)
+                .attr('ry',5)
+                .style("fill", function (d) { return color(d.id); });
 
             var link = vis.selectAll(".link")
                 .data(edges)
@@ -142,15 +157,13 @@
                 .enter().append("rect")
                 .classed("node", true)
                 .attr('rx',5)
-                .attr('ry',5)
-                .call(d3cola.drag);
+                .attr('ry',5);
 
             var label = vis.selectAll(".label")
                 .data(nodes)
                 .enter().append("text")
                 .attr("class", "label")
                 .text(function (d) { return d.name; })
-                .call(d3cola.drag)
                 .each(function (d) {
                     var b = this.getBBox();
                     var extra = 2 * margin + 2 * pad;
@@ -188,6 +201,11 @@
                         return d.innerBounds.width();
                     })
                     .attr("height", function (d) { return d.innerBounds.height(); });
+				group
+                    .attr('x', function (d) { return d.bounds.x })
+                    .attr('y', function (d) { return d.bounds.y })
+                    .attr('width', function (d) { return d.bounds.width() })
+                    .attr('height', function(d) { return d.bounds.height() });
 
                 link.attr("d", function (d) {
                     var route = cola.makeEdgeBetween(d.source.innerBounds, d.target.innerBounds, 5);
@@ -203,7 +221,7 @@
         });
         function isIE() { return ((navigator.appName == 'Microsoft Internet Explorer') || ((navigator.appName == 'Netscape') && (new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})").exec(navigator.userAgent) != null))); }
     </script>
-    This is a cola.js rendering of the classic graphviz dot <a href="http://www.graphviz.org/content/unix">example</a>.  We use <a href="https://github.com/cpettitt/graphlib-dot">graphlib-dot.js</a> to parse the dot file.
+    This is a cola.js rendering of the mathlib import graph.  We use <a href="https://github.com/cpettitt/graphlib-dot">graphlib-dot.js</a> to parse the dot file.
     The initialization for cola here is interesting:
     <pre><code>d3cola
     .avoidOverlaps(true)
