@@ -13,8 +13,8 @@
     .node {
         stroke: black;
         stroke-width: 1.5px;
-        cursor: move;
         fill: lightcoral;
+        pointer-events:none;
     }
 
     .link {
@@ -23,6 +23,7 @@
         stroke-width: 3px;
         opacity: 0.7;
         marker-end: url(#end-arrow);
+        pointer-events:none;
     }
 
     .label {
@@ -30,13 +31,14 @@
         font-family: Verdana;
         font-size: 25px;
         text-anchor: middle;
-        cursor: move;
+        pointer-events:none;
     }
 
 	.group {
 		stroke: #fff;
 		stroke-width: 1.5px;
 		opacity: 0.2;
+        pointer-events:none;
 	}
     </style >
     <link rel="stylesheet" href="https://ialab.it.monash.edu/webcola/extern/hljs/styles/github.css" />
@@ -86,9 +88,8 @@
             .attr('d','M0,-5L10,0L0,5L2,0')
             .attr('stroke-width','0px')
             .attr('fill','#000');
-
-        d3.text("https://alexjbest.github.io/graphs/import_graph.dot", function (f) {
-            var digraph = graphlibDot.parse(f);
+        d3.text("https://alexjbest.github.io/graphs/import_graph2.dot", function (f){
+                    var digraph = graphlibDot.parse(f);
 
             var nodeNames = digraph.nodes();
             var nodes = new Array(nodeNames.length);
@@ -131,12 +132,12 @@
             d3cola
                 .avoidOverlaps(true)
                 .convergenceThreshold(1e-3)
-                .flowLayout('y', 30)
+                .flowLayout('x', 150)
                 .size([width, height])
                 .nodes(nodes)
                 .groups(groups)
                 .links(edges)
-                .jaccardLinkLengths(150);
+                .jaccardLinkLengths(90,1.7);
 
             var group = vis.selectAll('.group')
                 .data(groups)
