@@ -10,12 +10,14 @@
   published: true
   journal: Bulletin of the London Mathematical Society
   arxiv: 2007.01749
+  doi: 10.1112/blms.12604
 
 - id: coleman-superelliptic
   title: Square root time Coleman integration on superelliptic curves
   published: true
   journal: Arithmetic geometry, number theory, and computation, Simons Symposia
   preprint: papers/coleman-superelliptic.pdf
+  doi: 10.1007/978-3-030-80914-0_3
 
 - id: elliptic-good-reduction
   title: Elliptic curves with good reduction outside of the first six primes
@@ -24,6 +26,7 @@
     - matschke
   journal: Arithmetic geometry, number theory, and computation, Simons Symposia
   arxiv: 2007.10535
+  doi: 10.1007/978-3-030-80914-0_5
 
 - id: computing-modular-forms
   title: Computing classical modular forms
@@ -31,6 +34,7 @@
   coauthors: [bober, booker, costa, cremona, derickx, lowry-duda, lee, roe, sutherland, voight]
   journal: Arithmetic geometry, number theory, and computation, Simons Symposia
   arxiv: 2002.04717
+  doi: 10.1007/978-3-030-80914-0_4
 
 - id: recent-padic
   title: Two Recent p-adic Approaches Towards the (effective) Mordell Conjecture
