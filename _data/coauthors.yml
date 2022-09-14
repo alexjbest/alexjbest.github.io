@@ -14,6 +14,7 @@ faraggi:
   name: Omri Faraggi
 kunzweiler:
   name: Sabrina Kunzweiler
+  website: "https://www.crypto.ruhr-uni-bochum.de/staff/kunzweiler.html.en"
 maistret:
   name: Céline Maistret
   website: "https://sites.google.com/view/cmaistret/home"
@@ -63,7 +64,7 @@ balakrishnan:
   website: "http://math.bu.edu/people/jbala/"
 bianchi:
   name: Francesca Bianchi
-  website: "http://people.maths.ox.ac.uk/bianchi/"
+  website: "https://sites.google.com/view/francescabianchi"
 lawrence:
   name: Brian Lawrence
   website: "https://math.uchicago.edu/~brianrl/"
@@ -75,7 +76,7 @@ triantafillou:
   website: "https://ngtriant.github.io/"
 vonk:
   name: Jan Vonk
-  website: "https://www.math.ias.edu/~vonk/"
+  website: "https://pub.math.leidenuniv.nl/~vonkjb/"
 arul:
   name: Vishal Arul
   website: "http://math.mit.edu/~varul/"
@@ -87,7 +88,7 @@ kumpitsch:
   website: "https://www.uni-frankfurt.de/73082540/M_Sc__Theresa_Kumpitsch"
 ludtke:
   name: Martin Lüdtke
-  website: "https://www.uni-frankfurt.de/61379381/Dr__Martin_L%C3%BCdtke"
+  website: "https://www.rug.nl/staff/m.w.ludtke/"
 mcandrew:
   name: Angus McAndrew
   website: "https://math.bu.edu/people/angusmca/"
@@ -96,6 +97,7 @@ qian:
   website: "https://mathematics.stanford.edu/people/lie-qian"
 studnia:
   name: Elie Studnia
+  website: "https://webusers.imj-prg.fr/~elie.studnia/"
 xu:
   name: Yujie Xu
   website: "https://www.math.harvard.edu/people/xu-yujie/"
