@@ -7,19 +7,19 @@
 - id: clusters
   title: A User's Guide to the Local Arithmetic of Hyperelliptic Curves
   coauthors: [betts, bisatt, van-bommel, vladimir-dokchitser, faraggi, kunzweiler, maistret, morgan, muselli, nowell]
-  published: false
+  published: true
   journal: Bulletin of the London Mathematical Society
   arxiv: 2007.01749
 
 - id: coleman-superelliptic
   title: Square root time Coleman integration on superelliptic curves
-  published: false
+  published: true
   journal: Arithmetic geometry, number theory, and computation, Simons Symposia
   preprint: papers/coleman-superelliptic.pdf
 
 - id: elliptic-good-reduction
   title: Elliptic curves with good reduction outside of the first six primes
-  published: false
+  published: true
   coauthors:
     - matschke
   journal: Arithmetic geometry, number theory, and computation, Simons Symposia
@@ -27,7 +27,7 @@
 
 - id: computing-modular-forms
   title: Computing classical modular forms
-  published: false
+  published: true
   coauthors: [bober, booker, costa, cremona, derickx, lowry-duda, lee, roe, sutherland, voight]
   journal: Arithmetic geometry, number theory, and computation, Simons Symposia
   arxiv: 2002.04717
