@@ -95,7 +95,7 @@
   venue: Lean for the curious mathematician 2020
   venue-link: https://leanprover-community.github.io/lftcm2020/
   video: https://youtu.be/RTfjSlwbKjQ
-  expository: false
+  expository: true
 
 - id: polylog-sage
   title: Computations with $p$-adic polylogarithms in SageMath
