@@ -1,0 +1,148 @@
+# - id: wg4
+#   title: some title
+#   venue: Some venue
+#   venue-link: https://europroofnet.github.io/wg4-meeting1/
+#   abstract: not used yet
+#   paper-ref: maybe?
+#   date: 2022
+#   slides: talks/wg4-kickoff/index.html
+#   notes: some/link/other/than/slides.pdf
+#   video: http://some/link
+#   expository: false
+#
+- id: wg4
+  title: Metaprogramming for Automation of Library Maintenance
+  venue: EuroProofNet Workshop on the development, maintenance, refactoring and search of large libraries of proofs, CLAS, Tbilisi Georgia
+  venue-link: https://europroofnet.github.io/wg4-meeting1/
+  date: 2022
+  slides: talks/wg4-kickoff/index.html
+  expository: false
+
+- id: formalized-nt
+  title: Formalization in number theory, past, present and future
+  venue: Dutch Intercity Number Theory Seminar
+  venue-link: https://pub.math.leidenuniv.nl/~brightmj/ic/2022.html
+  date: 2022
+  slides: talks/formalized-nt/slides.pdf
+  expository: false
+
+- id: big-data
+  title: Mathematical results as structured data
+  venue: Big Data in Pure Mathematics
+  date: 2022
+  venue-link: https://math-data.github.io/big-data-pure-math-2022/
+  slides: talks/big-data/index.html
+  expository: false
+
+- id: london
+  title: The $S$-unit equation and non-abelian Chabauty in depth 2
+  venue: London Number Theory Seminar
+  venue-link: https://researchseminars.org/seminar/LNTS
+  date: 2022
+  expository: false
+
+- id: binghamton
+  title: A guided tour of Chabauty methods
+  venue: Binghamton University Arithmetic Seminar
+  venue-link: http://www2.math.binghamton.edu/p/seminars/arit/arit_fall2021
+  slides: talks/binghamton/slides.pdf
+  date: 2021
+  expository: false
+
+- id: diamant
+  title: Elliptic curves with good reduction outside of the first six primes
+  venue: DIAMANT Symposium Autumn 2021
+  venue-link: https://diamantcluster.nl/events/event/diamant-symposium-autumn-2021/
+  expository: false
+
+- id: auto-generalization
+  title: Automatically Generalizing Theorems Using Typeclasses
+  venue: FMM 2021, part of CICM 2021
+  venue-link: https://cicm-conference.org/2021/cicm.php?event=fmm&menu=general
+  video: https://www.youtube.com/watch?v=pudd4F749tE&ab_channel=leanprovercommunity
+  slides: talks/auto-generalization/index.html
+  expository: false
+
+- id: linfoot
+  title: The $S$-unit equation and non-abelian Chabauty in depth 2
+  venue: Bristol Linfoot seminar
+  venue-link: https://www.bristolmathsresearch.org/events/linfoot-number-theory/
+  date: 2021
+  expository: false
+
+- id: uga
+  title: The $S$-unit equation and non-abelian Chabauty in depth 2
+  venue: UGA Arithmetic Geometry/Number Theory Seminar
+  date: 2021
+  expository: false
+
+- id: freiburg-online
+  title: The $S$-unit equation and non-abelian Chabauty in depth 2
+  venue: Freiburg Freitagsseminar
+  date: 2021
+  expository: false
+
+- id: lt2021
+  title: Generalising typeclass assumptions in Lean
+  venue: Lean Together 2021
+  venue-link: https://leanprover-community.github.io/lt2021/
+  video: https://www.youtube.com/watch?v=4W-B8tGJUME&ab_channel=leanprovercommunity
+  slides: talks/lean-generalisation/
+  expository: false
+
+- id: lftcm20
+  title: Building the topological hierarchy
+  venue: Lean for the curious mathematician 2020
+  venue-link: https://leanprover-community.github.io/lftcm2020/
+  video: https://youtu.be/RTfjSlwbKjQ
+  expository: false
+
+- id: polylog-sage
+  title: Computations with $p$-adic polylogarithms in SageMath
+  venue: Global Virtual SageDays 109
+  venue-link: https://wiki.sagemath.org/days109
+  date: 27/5/20
+  slides: "talks/sage-computations-polylogs/slides_h.pdf"
+  expository: false
+
+- id: journees
+  title: Explicit computation with Coleman integrals
+  venue: Journées Arithmétiques XXXI, University of Istanbul, 2019
+  venue-link: http://math.gsu.edu.tr/ja2019/
+  date: 2/7/19
+  slides: "talks/journees/slides_h.pdf"
+  expository: false
+
+- id: keio
+  title: Explicit computation with Coleman integrals
+  venue: Boston University - Keio University workshop, 2019
+  venue-link: http://math.bu.edu/keio2019/
+  date: 27/6/19
+  slides: "talks/keio/slides_h.pdf"
+  expository: false
+
+- id: icerm-lightning
+  title: Computing Coleman integrals on superelliptic curves (Lightning Talk)
+  venue: Arithmetic of Low Dimensional Abelian Varieties, ICERM
+  venue-link: https://icerm.brown.edu/events/sc19-1-aldav/
+  date: 2019
+  slides: talks/arithlow/slides_h.pdf
+  expository: false
+
+- id: brown
+  title: Zeta functions and $p$-adic integrals; computations and applications
+  venue: AMS Graduate Student Conference in Algebra/Number Theory, Brown
+  venue-link: https://sites.google.com/a/brown.edu/ams-conference-2019/conference-iii-algebraic-geometry-and-number-theory
+  date: 2019
+  slides: talks/zeta-functions-p-adic-integrals/slides_h.pdf
+  expository: false
+
+- id: (Explicit) Coleman Integration in Larger Characteristic
+  title: (Explicit) Coleman Integration in Larger Characteristic
+  venue: ANTS XIII 2018 UW-Madison
+  venue-link: https://paulhus.math.grinnell.edu/ants2018/
+  date: 17/7/18
+  slides: "talks/coleman-harvey/slides_h.pdf"
+  expository: false
+
+
