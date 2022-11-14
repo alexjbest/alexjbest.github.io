@@ -3,6 +3,12 @@
   coauthors: [baanen, coppola, dahmen]
   published: false
 
+- id: lean-auto
+  title: Automatically Generalizing Theorems Using Typeclasses
+  published: false
+  journal: Workshop Papers at 12th Conference on Intelligent Computer Mathematics CICM 2021, CEUR-WS
+  preprint: https://easychair.org/publications/preprint_open/KLfT
+
 - id: S-unit
   title: Refined Selmer Equations for the Thrice-Punctured Line in depth two
   coauthors: [betts, kumpitsch, ludtke, mcandrew, qian, studnia, xu]
