@@ -2,6 +2,7 @@
   title: Formalized Class Group Computations and Integral Points on Mordell Elliptic Curves
   coauthors: [baanen, coppola, dahmen]
   published: false
+  journal: CPP 2023
   arxiv: 2209.15492
 
 - id: lean-auto
