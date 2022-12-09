@@ -10,6 +10,28 @@
 #   video: http://some/link
 #   expository: false
 #
+
+
+- id: lll
+  title: Solving Diophantine equations via the class group
+  venue: London Learning Lean seminar
+  venue-link: https://researchseminars.org/seminar/LondonLearningLean
+  date: January 2023, upcoming
+  expository: false
+
+- id: cpp
+  title: Formalized Class Group Computations and Integral Points on Mordell Elliptic Curves
+  venue: Certified Programs and Proofs
+  venue-link: https://popl23.sigplan.org/home/CPP-2023
+  date: January 2023, upcoming
+  expository: false
+
+- id: hannover
+  title: The $S$-unit equation and non-abelian Chabauty in depth 2
+  venue: Oberseminar Zahlentheorie und Arithmetische Geometrie, Leibniz Universität Hannover
+  date: 2022
+  expository: false
+
 - id: wg4
   title: Metaprogramming for Automation of Library Maintenance
   venue: EuroProofNet Workshop on the development, maintenance, refactoring and search of large libraries of proofs, CLAS, Tbilisi Georgia
