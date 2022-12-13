@@ -31,6 +31,7 @@
   venue: Oberseminar Zahlentheorie und Arithmetische Geometrie, Leibniz Universität Hannover
   date: 2022
   expository: false
+  slides: talks/hanover/notes.pdf
 
 - id: wg4
   title: Metaprogramming for Automation of Library Maintenance
@@ -62,6 +63,7 @@
   venue-link: https://researchseminars.org/seminar/LNTS
   date: 2022
   expository: false
+  slides: talks/kcl/notes.pdf
 
 - id: binghamton
   title: A guided tour of Chabauty methods
@@ -76,6 +78,7 @@
   venue: DIAMANT Symposium Autumn 2021
   venue-link: https://diamantcluster.nl/events/event/diamant-symposium-autumn-2021/
   expository: false
+  slides: talks/diamant/notes.pdf
 
 - id: auto-generalization
   title: Automatically Generalizing Theorems Using Typeclasses
