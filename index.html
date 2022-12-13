@@ -238,6 +238,24 @@ Geometric approaches to solving Diophantine equations, at <a href="http://mathso
 
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="scripts/bootstrap.min.js"></script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+
+(function () {
+  var script = document.createElement('script');
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js';
+  script.async = true;
+  document.head.appendChild(script);
+})();
+</script>
+
 
 </body>
 </html>
