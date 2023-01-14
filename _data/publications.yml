@@ -1,9 +1,9 @@
 - id: lean-mordell
   title: Formalized Class Group Computations and Integral Points on Mordell Elliptic Curves
   coauthors: [baanen, coppola, dahmen]
-  published: false
   journal: CPP 2023
   arxiv: 2209.15492
+  doi: 10.1145/3573105.3575682
 
 - id: lean-auto
   title: Automatically Generalizing Theorems Using Typeclasses
