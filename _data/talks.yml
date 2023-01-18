@@ -25,6 +25,7 @@
   venue-link: https://popl23.sigplan.org/home/CPP-2023
   date: January 2023
   expository: false
+  slides: talks/cpp/
 
 - id: hannover
   title: The $S$-unit equation and non-abelian Chabauty in depth 2
