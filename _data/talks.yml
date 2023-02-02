@@ -16,8 +16,9 @@
   title: Solving Diophantine equations via the class group
   venue: London Learning Lean seminar
   venue-link: https://researchseminars.org/seminar/LondonLearningLean
-  date: January 2023, upcoming
+  date: February 2023
   expository: false
+  slides: talks/lll/
 
 - id: cpp
   title: Formalized Class Group Computations and Integral Points on Mordell Elliptic Curves
