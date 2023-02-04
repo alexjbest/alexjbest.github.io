@@ -12,6 +12,19 @@
 #
 
 
+- id: count
+  title: Explicit Coleman integration in much generality
+  venue: COUNT, COmputations and their Uses in Number Theory
+  venue-link: https://conferences.cirm-math.fr/2805.html
+  date: February 2023
+  expository: false
+
+- id: londonntstudy
+  title: Chai–Oort’s proof of Honda’s theorem
+  venue: London Number Theory Study Group
+  date: February 2023
+  expository: true
+
 - id: lll
   title: Solving Diophantine equations via the class group
   venue: London Learning Lean seminar
