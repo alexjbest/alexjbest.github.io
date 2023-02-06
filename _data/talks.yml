@@ -12,9 +12,16 @@
 #
 
 
+- id: camformal
+  title: TBD
+  venue: Formalisation of mathematics with interactive theorem provers, Cambridge
+  venue-link: http://www.talks.cam.ac.uk/show/index/164015
+  date: May 18th 2023
+  expository: false
+
 - id: count
   title: Explicit Coleman integration in much generality
-  venue: COUNT, COmputations and their Uses in Number Theory
+  venue: COUNT, COmputations and their Uses in Number Theory, Luminy
   venue-link: https://conferences.cirm-math.fr/2805.html
   date: February 2023
   expository: false
@@ -35,7 +42,7 @@
 
 - id: cpp
   title: Formalized Class Group Computations and Integral Points on Mordell Elliptic Curves
-  venue: Certified Programs and Proofs
+  venue: Certified Programs and Proofs, Boston
   venue-link: https://popl23.sigplan.org/home/CPP-2023
   date: January 2023
   expository: false
