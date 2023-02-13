@@ -1,4 +1,0 @@
-Reading list
-============
-
-- Bosch
