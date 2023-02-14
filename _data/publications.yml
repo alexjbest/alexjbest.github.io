@@ -1,8 +1,9 @@
 - id: lean-mordell
   title: Formalized Class Group Computations and Integral Points on Mordell Elliptic Curves
   coauthors: [baanen, coppola, dahmen]
-  journal: CPP 2023
+  journal: proceedings of Certified Programs and Proofs 2023
   arxiv: 2209.15492
+  published: true
   doi: 10.1145/3573105.3575682
 
 - id: lean-auto
