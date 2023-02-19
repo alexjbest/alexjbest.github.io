@@ -19,6 +19,18 @@
   date: June 8th 2023
   expository: false
 
+- id: heilbronn
+  title: p-adic integration and points on curves
+  venue: Heilbronn show and tell seminar
+  date: March 2023
+  expository: false
+
+- id: london-group
+  title: p-adic integration and points on curves
+  venue: King's internal research seminar
+  date: March 2023
+  expository: false
+
 - id: count
   title: Explicit Coleman integration in much generality
   venue: COUNT, COmputations and their Uses in Number Theory, Luminy
