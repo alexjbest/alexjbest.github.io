@@ -37,6 +37,7 @@
   venue-link: https://conferences.cirm-math.fr/2805.html
   date: February 2023
   expository: false
+  slides: talks/count/slides.pdf
 
 - id: londonntstudy
   title: Chai–Oort’s proof of Honda’s theorem
