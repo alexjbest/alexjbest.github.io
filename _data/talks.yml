@@ -26,13 +26,14 @@
   expository: false
 
 - id: london-group
-  title: p-adic integration and points on curves
+  title: Coleman integration and its Uses in Number Theory
   venue: King's internal research seminar
   date: March 2023
   expository: false
+  slides: talks/kingsinternal/slides.pdf
 
 - id: count
-  title: Explicit Coleman integration in much generality
+  title: COleman integration and its Uses in Number Theory
   venue: COUNT, COmputations and their Uses in Number Theory, Luminy
   venue-link: https://conferences.cirm-math.fr/2805.html
   date: February 2023
@@ -60,6 +61,7 @@
   date: January 2023
   expository: false
   slides: talks/cpp/
+  video: https://www.youtube.com/watch?v=bYM2zohFtVk&list=PLyrlk8Xaylp6EB6XceHKB-UKBfmYYJAbH&index=27
 
 - id: hannover
   title: The $S$-unit equation and non-abelian Chabauty in depth 2
