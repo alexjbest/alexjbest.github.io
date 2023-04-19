@@ -1,3 +1,9 @@
+- id: flt-regular
+  title: Fermat’s Last Theorem for regular primes (short paper)
+  coauthors: [birkbeck, brasca, rodriguez]
+  journal: proceedings of Fourteenth Conference on Interactive Theorem Proving (ITP) 2023
+  published: false
+
 - id: lean-mordell
   title: Formalized Class Group Computations and Integral Points on Mordell Elliptic Curves
   coauthors: [baanen, coppola, dahmen]
