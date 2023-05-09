@@ -14,9 +14,9 @@
 
 - id: lean-auto
   title: Automatically Generalizing Theorems Using Typeclasses
-  published: false
+  published: true
   journal: Workshop Papers at 12th Conference on Intelligent Computer Mathematics CICM 2021, CEUR-WS
-  preprint: https://easychair.org/publications/preprint/KLfT
+  pdf: https://ceur-ws.org/Vol-3377/fmm12.pdf
 
 - id: S-unit
   title: Refined Selmer Equations for the Thrice-Punctured Line in depth two
