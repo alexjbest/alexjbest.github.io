@@ -3,6 +3,7 @@
   coauthors: [birkbeck, brasca, rodriguez]
   journal: proceedings of Fourteenth Conference on Interactive Theorem Proving (ITP) 2023
   published: false
+  arxiv: 2305.08955
 
 - id: lean-mordell
   title: Formalized Class Group Computations and Integral Points on Mordell Elliptic Curves
