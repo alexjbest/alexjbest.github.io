@@ -13,7 +13,12 @@
 
 
 - id: camformal
-  title: TBD
+  title: Formalizing algebraic number theory, recent progress and future challenges
+  abstract: >
+    Most areas of mathematics present their own individual challenges from the perspective of formalization, arguments that are perceived as routine and obvious, or simply well known or intuitive to practitioners, that turn out to be far more difficult to express in a formal system.
+    I'll present some recent formalization projects from my own area of mathematics, concerning basic yet central topics in algebraic number theory, such as class groups and diophantine equations, and local invariants of elliptic curves.
+    These areas have until recently seen relatively little attention from the perspective of formalization.
+    A special attention will be paid to aspects that have made these formalizations tricky to complete and ways in which proof assistants can be improved to ensure future formalizations in these areas are shorter and closer to the arguments used by those working in these fields.
   venue: Formalisation of mathematics with interactive theorem provers, Cambridge
   venue-link: http://www.talks.cam.ac.uk/show/index/164015
   date: June 8th 2023
