@@ -23,6 +23,7 @@
   venue-link: http://www.talks.cam.ac.uk/show/index/164015
   date: June 8th 2023
   expository: false
+  slides: talks/camformal/
 
 - id: heilbronn
   title: p-adic integration and points on curves
