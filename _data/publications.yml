@@ -1,9 +1,10 @@
 - id: flt-regular
-  title: Fermat’s Last Theorem for regular primes (short paper)
+  title: Fermat’s Last Theorem for regular primes
   coauthors: [birkbeck, brasca, rodriguez]
   journal: proceedings of Fourteenth Conference on Interactive Theorem Proving (ITP) 2023
-  published: false
+  published: true
   arxiv: 2305.08955
+  doi: 10.4230/LIPIcs.ITP.2023.36
 
 - id: lean-mordell
   title: Formalized Class Group Computations and Integral Points on Mordell Elliptic Curves
@@ -23,6 +24,7 @@
   title: Refined Selmer Equations for the Thrice-Punctured Line in depth two
   coauthors: [betts, kumpitsch, ludtke, mcandrew, qian, studnia, xu]
   published: false
+  journal: Mathematics of Computation
   arxiv: 2106.10145
 
 - id: clusters
