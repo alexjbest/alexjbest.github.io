@@ -13,11 +13,17 @@
 
 
 - id: camformal
-  title: TBD
+  title: Formalizing algebraic number theory, recent progress and future challenges
+  abstract: >
+    Most areas of mathematics present their own individual challenges from the perspective of formalization, arguments that are perceived as routine and obvious, or simply well known or intuitive to practitioners, that turn out to be far more difficult to express in a formal system.
+    I'll present some recent formalization projects from my own area of mathematics, concerning basic yet central topics in algebraic number theory, such as class groups and diophantine equations, and local invariants of elliptic curves.
+    These areas have until recently seen relatively little attention from the perspective of formalization.
+    A special attention will be paid to aspects that have made these formalizations tricky to complete and ways in which proof assistants can be improved to ensure future formalizations in these areas are shorter and closer to the arguments used by those working in these fields.
   venue: Formalisation of mathematics with interactive theorem provers, Cambridge
   venue-link: http://www.talks.cam.ac.uk/show/index/164015
   date: June 8th 2023
   expository: false
+  slides: talks/camformal/
 
 - id: heilbronn
   title: p-adic integration and points on curves
@@ -51,6 +57,7 @@
   venue: London Learning Lean seminar
   venue-link: https://researchseminars.org/seminar/LondonLearningLean
   date: February 2023
+  video: https://www.youtube.com/watch?v=3IkyMyxyQcM&list=PLVZep5wTamMmqv34JnrNC2AgjfPoh_LN8&index=23
   expository: false
   slides: talks/lll/
 
@@ -174,6 +181,14 @@
   date: 2/7/19
   slides: "talks/journees/slides_h.pdf"
   expository: false
+  abstract: >
+    Coleman integration is a $p$-adic integration theory that provides a way integrate 1-forms on curves over $p$-adic fields.
+    The applications of this theory to arithmetic questions are varied, but include definitions of $p$-adic polylogarithms, explicit determination of rational points and torsion points on curves, and the computation of regulator maps in $K$-theory.
+
+    We will discuss the problem of computing these integrals in practice for special classes of interesting curves.
+    Via Monsky-Washnitzer cohomology this problem is related to that of computing zeta functions of curves over finite fields.
+    One can try to extend methods for computing the zeta function to also compute Coleman integrals, and so several algorithms can be found for Coleman integral computation.
+    We will also mention work in progress to use such computations as part of quadratic Chabauty to determine all rational points on interesting modular curves, in cases that were as far as we know not previously known.
 
 - id: keio
   title: Explicit computation with Coleman integrals
