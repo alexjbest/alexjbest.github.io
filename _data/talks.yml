@@ -12,6 +12,16 @@
 #
 
 
+- id: leancuriousag
+  title: Lean for the curious arithmetic geometer
+  abstract: >
+    A short demo together with Sander Dahmen on Lean for the curious arithmetic geometer
+  venue: Rational Points 2023, Scheny
+  venue-link: https://www.mathe2.uni-bayreuth.de/stoll/workshop2023/index.html
+  date: July 28th 2023
+  expository: false
+  slides: talks/lean-for-curious-ag/slides.pdf
+
 - id: camformal
   title: Formalizing algebraic number theory, recent progress and future challenges
   abstract: >
