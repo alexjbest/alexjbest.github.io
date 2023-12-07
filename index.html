@@ -57,6 +57,20 @@ If you want to send me an email, go ahead! Just replace the .github.io part of t
 <div class="container">
 <div class="row">
 
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h4>News</h4>
+</div>
+<div class="panel-body">
+    <ul class="list-group list-group-flush">
+        {% for news in site.data.news %}
+        <li class="list-group-item">
+            {{news.content}}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
 
 <div class="panel panel-primary">
 <div class="panel-heading">
