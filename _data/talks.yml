@@ -12,6 +12,34 @@
 #
 
 
+- id: exeter
+  title: Integral solutions of Generalized Fermat equations
+  abstract: >
+    Since the resolution of Fermat's Last Theorem by Wiles/Taylor in 1993
+    the so-called modular method has been applied to solve both other
+    classes of, but also specific instances of, Diophantine equations with
+    a similar form, many of these Diophantine problems are tricky and
+    simply not accessible by other approaches. Notably this includes
+    trying to show that in all but finitely many cases we have only the
+    trivial integral solutions for the generalized Fermat equations
+    $x^{a}+ y^{b}= z^c$  for $a,b,c \in \mathbf N$ when $\frac{1}{a}+
+    \frac{1}{b}+ \frac{1}{c}< 1$, this is sometimes known as the
+    Fermat-Catalan conjecture, the version with coefficients is also of
+    interest.
+    I'll report on recent and ongoing work with Dahmen and Freitas
+    resolving some of the smallest unknown cases of this conjecture, those
+    of the equations $x^{13}+ y^{13}= z^p$ for $p = 5, 7$.
+    This involves a combination of several Diophantine techniques,
+    including the modular method, descent, variants of Chabauty's method
+    and Chabauty over number fields, the unit sieve, and Mordell-Weil
+    sieves.
+    I'll explain these techniques and how they can be fruitfully applied
+    for this problem, but also more generally for other Diophantine
+    equations.
+  venue: University of Exeter, Algebra and Number Theory Seminar
+  date: November 22nd 2023
+  expository: false
+
 - id: leancuriousag
   title: Lean for the curious arithmetic geometer
   abstract: >
