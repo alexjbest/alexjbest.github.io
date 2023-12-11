@@ -23,7 +23,8 @@
 - id: S-unit
   title: Refined Selmer Equations for the Thrice-Punctured Line in depth two
   coauthors: [betts, kumpitsch, ludtke, mcandrew, qian, studnia, xu]
-  published: false
+  published: true
+  doi: 10.1090/mcom/3898
   journal: Mathematics of Computation
   arxiv: 2106.10145
 
