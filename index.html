@@ -85,7 +85,6 @@ If you want to send me an email, go ahead! Just replace the .github.io part of t
                 {% for coa in publ.coauthors %}{% if forloop.last and forloop.first==false %}and {%endif%}{% if site.data.coauthors[coa].website %}<a href="{{site.data.coauthors[coa].website}}">{%endif%}{{ site.data.coauthors[coa].name }}{% if site.data.coauthors[coa].website %}</a>{%endif%}{% unless forloop.last %}, 
             {% endunless %}{% endfor %}){% endif %}, 
             {% if publ.journal %}{% unless publ.published %}to appear{% endunless %} {{publ.journal}},{% endif %} 
-            {% if publ.date %}{{publ.date}},{% endif %} 
             <a knowl="papers/{{publ.id}}-abstract.html">(abstract)</a> 
             {% if publ.arxiv %}<a href="https://arxiv.org/abs/{{publ.arxiv}}">(arXiv)</a>{% endif %} 
             {% if publ.pdf %}<a href="{{publ.pdf}}">(pdf)</a>{% endif %} 
