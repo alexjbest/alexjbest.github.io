@@ -26,7 +26,6 @@
   published: true
   doi: 10.1090/mcom/3898
   journal: Mathematics of Computation
-  year: 2023
   arxiv: 2106.10145
 
 - id: clusters
@@ -34,7 +33,6 @@
   coauthors: [betts, bisatt, van-bommel, vladimir-dokchitser, faraggi, kunzweiler, maistret, morgan, muselli, nowell]
   published: true
   journal: Bulletin of the London Mathematical Society
-  year: 2022
   arxiv: 2007.01749
   doi: 10.1112/blms.12604
 
@@ -42,7 +40,6 @@
   title: Square root time Coleman integration on superelliptic curves
   published: true
   journal: Arithmetic geometry, number theory, and computation, Simons Symposia
-  year: 2021
   preprint: papers/coleman-superelliptic.pdf
   doi: 10.1007/978-3-030-80914-0_3
 
@@ -52,7 +49,6 @@
   coauthors:
     - matschke
   journal: Arithmetic geometry, number theory, and computation, Simons Symposia
-  year: 2021
   arxiv: 2007.10535
   doi: 10.1007/978-3-030-80914-0_5
 
@@ -61,7 +57,6 @@
   published: true
   coauthors: [bober, booker, costa, cremona, derickx, lowry-duda, lee, roe, sutherland, voight]
   journal: Arithmetic geometry, number theory, and computation, Simons Symposia
-  year: 2021
   arxiv: 2002.04717
   doi: 10.1007/978-3-030-80914-0_4
   errata: https://math.mit.edu/~drew/cmfs-mf-errata.pdf
@@ -78,7 +73,6 @@
   title: Explicit Coleman Integration in Larger Characteristic
   published: true
   journal: Proceedings of the Thirteenth Algorithmic Number Theory Symposium
-  year: 2018
   arxiv: 1806.03393
   doi: 10.2140/obs.2019.2.85
 
@@ -86,7 +80,6 @@
   title: Computing Zeta Functions of Cyclic Covers in Large Characteristic
   published: true
   journal: Proceedings of the Thirteenth Algorithmic Number Theory Symposium
-  year: 2018
   coauthors: [arul, costa, magner, triantafillou]
   arxiv: 1806.02262
   doi: 10.2140/obs.2019.2.37
