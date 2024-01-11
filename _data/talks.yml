@@ -10,7 +10,12 @@
 #   video: http://some/link
 #   expository: false
 #
-
+- id: leaff
+  title: Leaff, a Lean diff tool
+  venue: Lean Together 2024
+  venue-link: https://leanprover-community.github.io/lt2024/
+  video: https://www.youtube.com/watch?v=VkKfIWoM3Ms
+  expository: false
 
 - id: exeter
   title: Integral solutions of Generalized Fermat equations
