@@ -9,7 +9,15 @@
 #   notes: some/link/other/than/slides.pdf
 #   video: http://some/link
 #   expository: false
-#
+
+
+- id: vantage
+  title: Formalization and Arithmetic Geometry; past, present, and future
+  venue: VaNTAGe a virtual math seminar on open conjectures in number theory and arithmetic geometry
+  venue-link: https://sites.google.com/view/vantageseminar
+  expository: false
+
+
 - id: leaff
   title: Leaff, a Lean diff tool
   venue: Lean Together 2024
