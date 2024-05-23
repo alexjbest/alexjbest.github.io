@@ -17,6 +17,7 @@
   venue-link: https://sites.google.com/view/vantageseminar
   video: https://www.youtube.com/watch?v=fDYloeOjDVI
   expository: false
+  slides: talks/vantage/slides.pdf
 
 
 - id: leaff
