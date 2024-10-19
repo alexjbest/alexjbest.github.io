@@ -1,3 +1,9 @@
+- id: flt-regular-ii
+  title: A complete formalization of Fermat's Last Theorem for regular primes in Lean
+  coauthors: [birkbeck, brasca, rodriguez, yang, vandevelde]
+  published: false
+  arxiv: 2410.01466
+
 - id: flt-regular
   title: Fermat’s Last Theorem for regular primes
   coauthors: [birkbeck, brasca, rodriguez]
