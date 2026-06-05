@@ -122,3 +122,58 @@ yang:
   name: Andrew Yang
 vandevelde:
   name: Ruben van de Velde
+
+freitas:
+  name: Nuno Freitas
+  website: "https://www.icmat.es/miembros/nfreitas/"
+achim:
+  name: Tudor Achim
+  website: "https://cs.stanford.edu/~tachim/"
+bietti:
+  name: Alberto Bietti
+  website: "https://alberto.bietti.me/"
+der:
+  name: Kevin Der
+federico:
+  name: Mathïs Fédérico
+gukov:
+  name: Sergei Gukov
+  website: "https://www.gukov.caltech.edu/"
+halpern-leistner:
+  name: Daniel Halpern-Leistner
+  website: "https://danielhl.github.io/"
+henningsgard:
+  name: Kirsten Henningsgard
+kudryashov:
+  name: Yury Kudryashov
+meiburg:
+  name: Alexander Meiburg
+  website: "https://ohaithe.re/"
+michelsen:
+  name: Martin Michelsen
+patterson:
+  name: Riley Patterson
+scharff:
+  name: Laura Scharff
+shanker:
+  name: Vikram Shanker
+sicca:
+  name: Vladmir Sicca
+  website: "https://vladmirsicca.github.io/"
+sowrirajan:
+  name: Hari Sowrirajan
+swope:
+  name: Aidan Swope
+  website: "https://aidanswope.com/about"
+tamas:
+  name: Matyas Tamas
+tenev:
+  name: Vlad Tenev
+thomm:
+  name: Jonathan Thomm
+harold-williams:
+  name: Harold Williams
+  website: "https://www.hwilliams.net/"
+lawrence-wu:
+  name: Lawrence Wu
+  website: "https://llllvvuu.dev/"
