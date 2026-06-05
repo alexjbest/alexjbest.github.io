@@ -1,3 +1,15 @@
+- id: fermat-13
+  title: On the generalized Fermat equation x<sup>13</sup> + y<sup>13</sup> = z<sup>n</sup>
+  coauthors: [dahmen, freitas]
+  published: false
+  arxiv: 2510.12092
+
+- id: aristotle
+  title: 'Aristotle: IMO-level Automated Theorem Proving'
+  coauthors: [achim, bietti, der, federico, gukov, halpern-leistner, henningsgard, kudryashov, meiburg, michelsen, patterson, rodriguez, scharff, shanker, sicca, sowrirajan, swope, tamas, tenev, thomm, harold-williams, lawrence-wu]
+  published: false
+  arxiv: 2510.01346
+
 - id: flt-regular-ii
   title: A complete formalization of Fermat's Last Theorem for regular primes in Lean
   coauthors: [birkbeck, brasca, rodriguez, yang, vandevelde]
