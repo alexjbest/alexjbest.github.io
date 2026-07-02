@@ -25,9 +25,8 @@ Alex J. Best's homepage
 
 </script>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-<link href="https://pretextbook.org/examples/showcase/html/_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="https://pretextbook.org/examples/showcase/html/_static/pretext/js/lib/knowl.js"></script>
+<link rel="stylesheet" type="text/css" href="css/knowls.css" />
+<script defer src="scripts/knowl.js"></script>
 
 
 </head>
@@ -88,7 +87,7 @@ If you want to send me an email, go ahead! Just replace the .github.io part of t
             {% endunless %}{% endfor %}){% endif %}, 
             {% if publ.journal %}{% unless publ.published %}to appear{% endunless %} {{publ.journal}},{% endif %} 
             {% if publ.year %}{{publ.year}},{% endif %} 
-            <a data-knowl="papers/{{publ.id}}-abstract.html">(abstract)</a> 
+            <a href="papers/{{publ.id}}-abstract.html" data-knowl="papers/{{publ.id}}-abstract.html">(abstract)</a>
             {% if publ.arxiv %}<a href="https://arxiv.org/abs/{{publ.arxiv}}">(arXiv)</a>{% endif %} 
             {% if publ.pdf %}<a href="{{publ.pdf}}">(pdf)</a>{% endif %} 
             {% if publ.preprint %}<a href="{{publ.preprint}}">(preprint)</a>{% endif %} 

@@ -1,0 +1,24 @@
+/* Local styles for expandable abstract knowls. */
+a[data-knowl] {
+  cursor: pointer;
+}
+
+.knowl-output {
+  display: none;
+  margin: 0.75em 0 0.25em;
+  padding: 0.85em 1em;
+  border-left: 4px solid #2c3e50;
+  background: #f7f7f7;
+}
+
+.knowl-output.is-open {
+  display: block;
+}
+
+.knowl-output p:last-child {
+  margin-bottom: 0;
+}
+
+.knowl-error {
+  color: #a94442;
+}
