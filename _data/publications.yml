@@ -1,5 +1,5 @@
 - id: fermat-13
-  title: On the generalized Fermat equation x<sup>13</sup> + y<sup>13</sup> = z<sup>n</sup>
+  title: On the generalized Fermat equation x^{13} + y^{13} = z^{n}
   coauthors: [dahmen, freitas]
   year: 2025
   published: false
