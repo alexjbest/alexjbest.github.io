@@ -2,12 +2,14 @@
   title: On the generalized Fermat equation x<sup>13</sup> + y<sup>13</sup> = z<sup>n</sup>
   coauthors: [dahmen, freitas]
   published: false
+  year: 2025
   arxiv: 2510.12092
 
 - id: aristotle
   title: 'Aristotle: IMO-level Automated Theorem Proving'
   coauthors: [achim, bietti, der, federico, gukov, halpern-leistner, henningsgard, kudryashov, meiburg, michelsen, patterson, rodriguez, scharff, shanker, sicca, sowrirajan, swope, tamas, tenev, thomm, harold-williams, lawrence-wu]
   published: false
+  year: 2025
   arxiv: 2510.01346
 
 - id: flt-regular-ii
